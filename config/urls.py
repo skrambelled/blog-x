@@ -7,7 +7,8 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('pages.urls')),
     path('blog/', include('blog.urls')),
-    path('api/v1/', include('api.urls'))
+    path('api/v1/', include('api.urls')),
+    path('api-auth/', include('rest_framework.urls')),
 ]
 
 if settings.DEBUG:

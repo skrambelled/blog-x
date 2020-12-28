@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn config.wsgi.py
+  web: gunicorn config.wsgi
